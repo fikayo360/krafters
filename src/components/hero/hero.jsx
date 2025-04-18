@@ -15,7 +15,12 @@ const Hero = () => {
             
             { isNavActive? <div id='navMobile'>
                 <div id='nMobileWrap'>
-                    <div id='nMobileHead'><h1 className='fs-500'>Krafters.</h1><img src='close.png' onClick={toggleNav}/></div>
+                    <div id='nMobileHead'>
+                    <div className='heroLogo'> 
+                            <img src="logo.png" className='logo'/>
+                            <h1 className='fs-400'>Krafters</h1>
+                    </div>
+                    <img src='close.png' onClick={toggleNav}/></div>
                     <ul>
                     <li className='fs-700'><Link to="/articles">articles</Link></li>
                     <li className='fs-700'><a href="#projects">projects</a></li>
@@ -27,13 +32,16 @@ const Hero = () => {
             <div id='heroWrap'>
                 <nav>
                     <div id='navWrap'>
-                        <h1 className='fs-400'>Krafters</h1>
+                        <div className='heroLogo'> 
+                            <img src="logo.png" className='logo'/>
+                            <h1 className='fs-400'>Krafters</h1>
+                        </div>
                         <ul>
                             <li><Link to="/articles">articles</Link></li>
                             <li><a href="#projects">projects</a></li>
                             <li><a href='#skills'>skills</a></li>
                         </ul>
-                        <img src='burger.png' onClick={toggleNav}/>
+                        <img src='burger.png' className='burger' onClick={toggleNav}/>
                     </div>
 
                 </nav>

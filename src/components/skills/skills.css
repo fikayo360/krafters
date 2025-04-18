@@ -2,6 +2,7 @@
     width: 100vw;
     min-height: 70vh;
     position: relative;
+    margin-bottom: 4rem;
 }
 
 #skillsWrap{
@@ -36,7 +37,7 @@
 }
 
 .skill:hover{
-    background-color: rgba(128, 5, 21, 0.39);
+    background-color: rgba(133, 121, 123, 0.39);
     border: none;
 }
 

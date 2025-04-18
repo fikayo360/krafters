@@ -40,7 +40,7 @@ const Footer = () => {
 
                 <div id='up'>
                     <div id='upWrap'>
-                    <h1 className='fs-800'>Fikayo Adele</h1>
+                    <h1 className='fs-800'>Krafters</h1>
 
                     <div id='upWrapRight'>
                         <div className='upRightSocialConts'>
@@ -77,6 +77,7 @@ const Footer = () => {
                 <div id='down'>
                             <h1 className='fs-400'>Krafters.</h1>
                             <img src='fikayo.png'/>
+                            <img src='favor.png'/>
                 </div>
 
    
